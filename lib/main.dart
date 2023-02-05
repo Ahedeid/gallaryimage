@@ -131,18 +131,6 @@ class _MyHomePageState extends State<MyHomePage> {
         )
             :
             ElevatedButton(onPressed: downloadFile, child: const Text('download')),
-            // : FlatButton.icon(
-            // icon: Icon(
-            //   Icons.download_rounded,
-            //   color: Colors.white,
-            // ),
-            // color: Colors.blue,
-            // onPressed: downloadFile,
-            // padding: const EdgeInsets.all(10),
-            // label: Text(
-            //   "Download Video",
-            //   style: TextStyle(color: Colors.white, fontSize: 25),
-            // )),
       ),
     );
   }
